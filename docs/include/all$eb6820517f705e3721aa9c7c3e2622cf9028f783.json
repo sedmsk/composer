@@ -1,0 +1,360 @@
+{
+    "packages": {
+        "sd/dumper": {
+            "0.1.0": {
+                "name": "sd/dumper",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitlab.sd.finag.in/dev-tools/Dumper.git",
+                    "reference": "cd0e3e2809a698cf9dce57896ef2d9b9f7db5bf9"
+                },
+                "require": {
+                    "php": ">=7.0",
+                    "symfony/dotenv": "~3.3",
+                    "symfony/var-dumper": "~3.3",
+                    "twig/twig": "~1.28"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^7.0"
+                },
+                "time": "2018-03-21T11:47:32+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "SD\\Dumper\\": "src"
+                    },
+                    "files": [
+                        "src/init.php",
+                        "src/helpers.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SD\\Dumper\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "@composer install",
+                        "phpunit --colors --testdox"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Igor Finagin",
+                        "email": "Igor.Finagin@tatar.ru",
+                        "homepage": "https://phab.shire.local/p/Igor.Finagin/",
+                        "role": "Developer"
+                    }
+                ],
+                "homepage": "http://git.shire.local/SD/MOCKBA/dumper"
+            },
+            "0.2.0": {
+                "name": "sd/dumper",
+                "version": "0.2.0",
+                "version_normalized": "0.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitlab.sd.finag.in/dev-tools/Dumper.git",
+                    "reference": "ae381711785567143e4845b546c7fecf476c30b0"
+                },
+                "require": {
+                    "php": ">=7.0",
+                    "symfony/dotenv": "~3.3",
+                    "symfony/var-dumper": "~3.3",
+                    "twig/twig": "~2.4"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": "^7.0"
+                },
+                "time": "2018-03-29T11:38:33+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-4": {
+                        "SD\\Dumper\\": "src"
+                    },
+                    "files": [
+                        "src/init.php",
+                        "src/helpers.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "SD\\Dumper\\Tests\\": "tests"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "@composer install",
+                        "phpunit --colors --testdox"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Igor Finagin",
+                        "email": "Igor.Finagin@tatar.ru",
+                        "homepage": "https://phab.shire.local/p/Igor.Finagin/",
+                        "role": "Developer"
+                    }
+                ],
+                "homepage": "http://git.shire.local/SD/MOCKBA/dumper"
+            },
+            "0.2.1": {
+                "name": "sd/dumper",
+                "version": "0.2.1",
+                "version_normalized": "0.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitlab.sd.finag.in/dev-tools/Dumper.git",
+                    "reference": "31bf5ce78f003b355284ab6092f6dfd71e64fed4"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "php": ">=7.1",
+                    "symfony/var-dumper": "^3.3 || ^4.0"
+                },
+                "require-dev": {
+                    "phpdocumentor/phpdocumentor": "dev-master",
+                    "phpunit/php-code-coverage": "^6.0",
+                    "phpunit/phpunit": "^7"
+                },
+                "time": "2019-04-25T12:57:43+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "0.2.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "SD\\Dumper\\": "src/"
+                    },
+                    "files": [
+                        "src/helpers.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "@composer install --no-interaction",
+                        "phpunit --colors --testdox",
+                        "phpdoc"
+                    ],
+                    "post-autoload-dump": [
+                        "resources/scripts/composer/post-autoload-dump"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Igor Finagin",
+                        "email": "Igor.Finagin@tatar.ru",
+                        "homepage": "https://phab.shire.local/p/Igor.Finagin/",
+                        "role": "Developer"
+                    }
+                ],
+                "homepage": "http://git.shire.local/SD/MOCKBA/dumper"
+            },
+            "0.2.2": {
+                "name": "sd/dumper",
+                "version": "0.2.2",
+                "version_normalized": "0.2.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitlab.sd.finag.in/dev-tools/Dumper.git",
+                    "reference": "990c49ec002ea5ab70d99b2994dba257e3f38343"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "php": ">=7.1",
+                    "symfony/var-dumper": "^3.3 || ^4.0"
+                },
+                "require-dev": {
+                    "phpdocumentor/phpdocumentor": "dev-master",
+                    "phpunit/php-code-coverage": "^6.0",
+                    "phpunit/phpunit": "^7"
+                },
+                "time": "2019-04-25T13:00:29+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "0.2.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "SD\\Dumper\\": "src/"
+                    },
+                    "files": [
+                        "src/helpers.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "@composer install --no-interaction",
+                        "phpunit --colors --testdox",
+                        "phpdoc"
+                    ],
+                    "post-autoload-dump": [
+                        "resources/scripts/composer/post-autoload-dump"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Igor Finagin",
+                        "email": "Igor.Finagin@tatar.ru",
+                        "homepage": "https://phab.shire.local/p/Igor.Finagin/",
+                        "role": "Developer"
+                    }
+                ],
+                "homepage": "http://gitlab-ci.shire.local/dev-tools/Dumper"
+            },
+            "dev-master": {
+                "name": "sd/dumper",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitlab.sd.finag.in/dev-tools/Dumper.git",
+                    "reference": "990c49ec002ea5ab70d99b2994dba257e3f38343"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "php": ">=7.1",
+                    "symfony/var-dumper": "^3.3 || ^4.0"
+                },
+                "require-dev": {
+                    "phpdocumentor/phpdocumentor": "dev-master",
+                    "phpunit/php-code-coverage": "^6.0",
+                    "phpunit/phpunit": "^7"
+                },
+                "time": "2019-04-25T13:00:29+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "0.2.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "SD\\Dumper\\": "src/"
+                    },
+                    "files": [
+                        "src/helpers.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "@composer install --no-interaction",
+                        "phpunit --colors --testdox",
+                        "phpdoc"
+                    ],
+                    "post-autoload-dump": [
+                        "resources/scripts/composer/post-autoload-dump"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Igor Finagin",
+                        "email": "Igor.Finagin@tatar.ru",
+                        "homepage": "https://phab.shire.local/p/Igor.Finagin/",
+                        "role": "Developer"
+                    }
+                ],
+                "homepage": "http://gitlab-ci.shire.local/dev-tools/Dumper"
+            },
+            "dev-develop": {
+                "name": "sd/dumper",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://gitlab.sd.finag.in/dev-tools/Dumper.git",
+                    "reference": "0ef499121a16dfaa69d5f9834b739472b4b5bcaf"
+                },
+                "require": {
+                    "ext-json": "*",
+                    "php": ">=7.1",
+                    "symfony/var-dumper": "^3.3 || ^4.0"
+                },
+                "require-dev": {
+                    "phpdocumentor/phpdocumentor": "dev-master",
+                    "phpunit/php-code-coverage": "^6.0",
+                    "phpunit/phpunit": "^7"
+                },
+                "time": "2019-04-25T13:00:29+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "0.2.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "SD\\Dumper\\": "src/"
+                    },
+                    "files": [
+                        "src/helpers.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "@composer install --no-interaction",
+                        "phpunit --colors --testdox",
+                        "phpdoc"
+                    ],
+                    "post-autoload-dump": [
+                        "resources/scripts/composer/post-autoload-dump"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Igor Finagin",
+                        "email": "Igor.Finagin@tatar.ru",
+                        "homepage": "https://phab.shire.local/p/Igor.Finagin/",
+                        "role": "Developer"
+                    }
+                ],
+                "homepage": "http://gitlab-ci.shire.local/dev-tools/Dumper"
+            }
+        }
+    }
+}
