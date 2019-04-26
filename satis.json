@@ -1,0 +1,11 @@
+{
+  "name": "sedmsk/composer",
+  "homepage": "https://sedmsk.github.io/composer",
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://gitlab.sd.finag.in/dev-tools/Dumper.git"
+    }
+  ],
+  "require-all": true
+}

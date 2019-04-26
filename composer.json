@@ -1,0 +1,7 @@
+{
+    "name": "sedmsk/composer",
+    "type": "metapackage",
+    "require": {
+        "composer/satis": "dev-master"
+    }
+}
