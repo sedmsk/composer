@@ -5,6 +5,14 @@
     {
       "type": "vcs",
       "url": "https://gitlab.sd.finag.in/dev-tools/Dumper.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/sedmsk/arcanist"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/sedmsk/libphutil"
     }
   ],
   "require-all": true
