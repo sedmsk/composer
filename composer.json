@@ -1,7 +1,18 @@
 {
     "name": "sedmsk/composer",
+    "homepage": "https://sedmsk.github.io/composer",
     "type": "metapackage",
+    "license": "MIT",
     "require": {
         "composer/satis": "dev-master"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "satis build satis.json docs"
+        ]
     }
 }
