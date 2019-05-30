@@ -4,7 +4,7 @@
   "repositories": [
     {
       "type": "vcs",
-      "url": "https://gitlab.sd.finag.in/dev-tools/Dumper.git"
+      "url": "https://github.com/sedmsk/dumper"
     },
     {
       "type": "vcs",
