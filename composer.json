@@ -4,6 +4,7 @@
     "type": "metapackage",
     "license": "MIT",
     "require": {
+        "ext-json": "*",
         "composer/satis": "dev-master"
     },
     "config": {
