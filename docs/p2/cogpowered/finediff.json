@@ -1,0 +1,296 @@
+{
+    "packages": {
+        "cogpowered/finediff": [
+            {
+                "name": "cogpowered/finediff",
+                "version": "0.0.1",
+                "version_normalized": "0.0.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sedmsk/FineDiff.git",
+                    "reference": "ddbc4d053745b0354bc1e608a49f916190ce23ca"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/sedmsk/FineDiff/zipball/ddbc4d053745b0354bc1e608a49f916190ce23ca",
+                    "reference": "ddbc4d053745b0354bc1e608a49f916190ce23ca",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "*",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2013-03-14T16:18:08+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "cogpowered\\FineDiff": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Raymond Hill"
+                    },
+                    {
+                        "name": "Rob Crowe",
+                        "email": "rob@cogpowered.com"
+                    }
+                ],
+                "description": "PHP implementation of a Fine granularity Diff engine",
+                "homepage": "https://github.com/cogpowered/FineDiff",
+                "keywords": [
+                    "diff",
+                    "finediff",
+                    "opcode",
+                    "string",
+                    "text"
+                ],
+                "support": {
+                    "source": "https://github.com/sedmsk/FineDiff/tree/0.0.1",
+                    "issues": "https://github.com/sedmsk/FineDiff/issues"
+                }
+            },
+            {
+                "name": "cogpowered/finediff",
+                "version": "0.2.0",
+                "version_normalized": "0.2.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sedmsk/FineDiff.git",
+                    "reference": "58af5e98a378441f2050586f7743ac317ad23003"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/sedmsk/FineDiff/zipball/58af5e98a378441f2050586f7743ac317ad23003",
+                    "reference": "58af5e98a378441f2050586f7743ac317ad23003",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "*",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2014-05-19T10:09:22+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "cogpowered\\FineDiff": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Raymond Hill"
+                    },
+                    {
+                        "name": "Rob Crowe",
+                        "email": "rob@cogpowered.com"
+                    }
+                ],
+                "description": "PHP implementation of a Fine granularity Diff engine",
+                "homepage": "https://github.com/cogpowered/FineDiff",
+                "keywords": [
+                    "diff",
+                    "finediff",
+                    "opcode",
+                    "string",
+                    "text"
+                ],
+                "support": {
+                    "source": "https://github.com/sedmsk/FineDiff/tree/0.2.0",
+                    "issues": "https://github.com/sedmsk/FineDiff/issues"
+                }
+            },
+            {
+                "name": "cogpowered/finediff",
+                "version": "0.2.1",
+                "version_normalized": "0.2.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sedmsk/FineDiff.git",
+                    "reference": "42d749e54009c6c8e6fc29923ced6b6744c47984"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/sedmsk/FineDiff/zipball/42d749e54009c6c8e6fc29923ced6b6744c47984",
+                    "reference": "42d749e54009c6c8e6fc29923ced6b6744c47984",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "*",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2014-05-19T10:12:27+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "cogpowered\\FineDiff": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Raymond Hill"
+                    },
+                    {
+                        "name": "Rob Crowe",
+                        "email": "rob@cogpowered.com"
+                    }
+                ],
+                "description": "PHP implementation of a Fine granularity Diff engine",
+                "homepage": "https://github.com/cogpowered/FineDiff",
+                "keywords": [
+                    "diff",
+                    "finediff",
+                    "opcode",
+                    "string",
+                    "text"
+                ],
+                "support": {
+                    "source": "https://github.com/sedmsk/FineDiff/tree/0.2.1",
+                    "issues": "https://github.com/sedmsk/FineDiff/issues"
+                }
+            },
+            {
+                "name": "cogpowered/finediff",
+                "version": "0.3.1",
+                "version_normalized": "0.3.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sedmsk/FineDiff.git",
+                    "reference": "339ddc8c3afb656efed4f2f0a80e5c3d026f8ea8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/sedmsk/FineDiff/zipball/339ddc8c3afb656efed4f2f0a80e5c3d026f8ea8",
+                    "reference": "339ddc8c3afb656efed4f2f0a80e5c3d026f8ea8",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "*",
+                    "phpunit/phpunit": "*"
+                },
+                "time": "2014-05-19T10:25:02+00:00",
+                "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "cogpowered\\FineDiff": "src/"
+                    }
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Raymond Hill"
+                    },
+                    {
+                        "name": "Rob Crowe",
+                        "email": "rob@cogpowered.com"
+                    }
+                ],
+                "description": "PHP implementation of a Fine granularity Diff engine",
+                "homepage": "https://github.com/cogpowered/FineDiff",
+                "keywords": [
+                    "diff",
+                    "finediff",
+                    "opcode",
+                    "string",
+                    "text"
+                ],
+                "support": {
+                    "source": "https://github.com/sedmsk/FineDiff/tree/0.3.1",
+                    "issues": "https://github.com/sedmsk/FineDiff/issues"
+                }
+            },
+            {
+                "name": "cogpowered/finediff",
+                "version": "0.3.2",
+                "version_normalized": "0.3.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sedmsk/FineDiff.git",
+                    "reference": "8f078b3ca07b97a9b9cde78eb1b729c6beef14b8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/sedmsk/FineDiff/zipball/8f078b3ca07b97a9b9cde78eb1b729c6beef14b8",
+                    "reference": "8f078b3ca07b97a9b9cde78eb1b729c6beef14b8",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "mockery/mockery": "*",
+                    "phpunit/phpunit": "^4 || ^5 || ^6 || ^7"
+                },
+                "time": "2019-06-02T14:54:24+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "0.3.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "CogPowered\\FineDiff\\": "src/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "FineDiffTests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "tests": [
+                        "phpunit"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Raymond Hill"
+                    },
+                    {
+                        "name": "Rob Crowe",
+                        "email": "rob@cogpowered.com"
+                    }
+                ],
+                "description": "PHP implementation of a Fine granularity Diff engine",
+                "homepage": "https://github.com/cogpowered/FineDiff",
+                "keywords": [
+                    "diff",
+                    "finediff",
+                    "opcode",
+                    "string",
+                    "text"
+                ],
+                "support": {
+                    "source": "https://github.com/sedmsk/FineDiff/tree/0.3.2",
+                    "issues": "https://github.com/sedmsk/FineDiff/issues"
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,126 @@
+{
+    "packages": {
+        "sd/arcanist": [
+            {
+                "name": "sd/arcanist",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sedmsk/arcanist.git",
+                    "reference": "970695935cbddb5c81e43891dac6a92e45c63358"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/sedmsk/arcanist/zipball/970695935cbddb5c81e43891dac6a92e45c63358",
+                    "reference": "970695935cbddb5c81e43891dac6a92e45c63358",
+                    "shasum": ""
+                },
+                "time": "2019-05-13T14:57:07+00:00",
+                "bin": [
+                    "bin/arc"
+                ],
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "0.1.x-dev"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Igor Finagin",
+                        "email": "Igor.Finagin@tatar.ru",
+                        "homepage": "https://phab.shire.local/p/Igor.Finagin/",
+                        "role": "Developer"
+                    }
+                ],
+                "support": {
+                    "source": "https://github.com/sedmsk/arcanist/tree/0.1.0",
+                    "issues": "https://github.com/sedmsk/arcanist/issues"
+                }
+            },
+            {
+                "name": "sd/arcanist",
+                "version": "0.1.1",
+                "version_normalized": "0.1.1.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sedmsk/arcanist.git",
+                    "reference": "0a226245aa9af54707967ff0f6e7ae20b6ce7a7d"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/sedmsk/arcanist/zipball/0a226245aa9af54707967ff0f6e7ae20b6ce7a7d",
+                    "reference": "0a226245aa9af54707967ff0f6e7ae20b6ce7a7d",
+                    "shasum": ""
+                },
+                "require": {
+                    "sd/libphutil": "*"
+                },
+                "time": "2019-05-14T07:53:24+00:00",
+                "bin": [
+                    "bin/arc"
+                ],
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "0.1.x-dev"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Igor Finagin",
+                        "email": "Igor.Finagin@tatar.ru",
+                        "homepage": "https://phab.shire.local/p/Igor.Finagin/",
+                        "role": "Developer"
+                    }
+                ],
+                "support": {
+                    "source": "https://github.com/sedmsk/arcanist/tree/0.1.1",
+                    "issues": "https://github.com/sedmsk/arcanist/issues"
+                }
+            },
+            {
+                "name": "sd/arcanist",
+                "version": "0.1.2",
+                "version_normalized": "0.1.2.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sedmsk/arcanist.git",
+                    "reference": "9df8e10f9d5ae31ead9c5f18f442ddfb89eb1e18"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/sedmsk/arcanist/zipball/9df8e10f9d5ae31ead9c5f18f442ddfb89eb1e18",
+                    "reference": "9df8e10f9d5ae31ead9c5f18f442ddfb89eb1e18",
+                    "shasum": ""
+                },
+                "require": {
+                    "sd/libphutil": "*"
+                },
+                "time": "2019-05-14T08:30:42+00:00",
+                "bin": [
+                    "bin/arc"
+                ],
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "0.1.x-dev"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Igor Finagin",
+                        "email": "Igor.Finagin@tatar.ru",
+                        "homepage": "https://phab.shire.local/p/Igor.Finagin/",
+                        "role": "Developer"
+                    }
+                ],
+                "support": {
+                    "issues": "https://github.com/sedmsk/arcanist/issues",
+                    "source": "https://github.com/sedmsk/arcanist/tree/0.1.2"
+                }
+            }
+        ]
+    }
+}

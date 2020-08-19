@@ -1,0 +1,43 @@
+{
+    "packages": {
+        "sd/libphutil": [
+            {
+                "name": "sd/libphutil",
+                "version": "0.1.0",
+                "version_normalized": "0.1.0.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sedmsk/libphutil.git",
+                    "reference": "ed46ce3e19810b393acf8a55bc56f97b3ac5e3c8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/sedmsk/libphutil/zipball/ed46ce3e19810b393acf8a55bc56f97b3ac5e3c8",
+                    "reference": "ed46ce3e19810b393acf8a55bc56f97b3ac5e3c8",
+                    "shasum": ""
+                },
+                "time": "2019-05-14T06:16:37+00:00",
+                "bin": [
+                    "bin/aws-s3"
+                ],
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "0.1.x-dev"
+                    }
+                },
+                "authors": [
+                    {
+                        "name": "Igor Finagin",
+                        "email": "Igor.Finagin@tatar.ru",
+                        "homepage": "https://phab.shire.local/p/Igor.Finagin/",
+                        "role": "Developer"
+                    }
+                ],
+                "support": {
+                    "source": "https://github.com/sedmsk/libphutil/tree/0.1.0"
+                }
+            }
+        ]
+    }
+}
