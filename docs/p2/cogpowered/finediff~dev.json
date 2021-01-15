@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/sedmsk/FineDiff.git",
-                    "reference": "8f078b3ca07b97a9b9cde78eb1b729c6beef14b8"
+                    "reference": "8ba2736af43446f7ee97c971cb1aca4cbb6dc30e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/sedmsk/FineDiff/zipball/8f078b3ca07b97a9b9cde78eb1b729c6beef14b8",
-                    "reference": "8f078b3ca07b97a9b9cde78eb1b729c6beef14b8",
+                    "url": "https://api.github.com/repos/sedmsk/FineDiff/zipball/8ba2736af43446f7ee97c971cb1aca4cbb6dc30e",
+                    "reference": "8ba2736af43446f7ee97c971cb1aca4cbb6dc30e",
                     "shasum": ""
                 },
                 "require": {
@@ -23,7 +23,7 @@
                     "mockery/mockery": "*",
                     "phpunit/phpunit": "^4 || ^5 || ^6 || ^7"
                 },
-                "time": "2019-06-02T14:54:24+00:00",
+                "time": "2021-01-15T13:07:34+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -67,7 +67,7 @@
                     "text"
                 ],
                 "support": {
-                    "source": "https://github.com/sedmsk/FineDiff/tree/0.3.2",
+                    "source": "https://github.com/sedmsk/FineDiff/tree/0.3.3",
                     "issues": "https://github.com/sedmsk/FineDiff/issues"
                 }
             }

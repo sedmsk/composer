@@ -75,17 +75,17 @@
             },
             {
                 "name": "sd/dumper",
-                "version": "dev-dependabot/npm_and_yarn/axios-0.18.1",
-                "version_normalized": "dev-dependabot/npm_and_yarn/axios-0.18.1",
+                "version": "dev-dependabot/npm_and_yarn/axios-0.21.1",
+                "version_normalized": "dev-dependabot/npm_and_yarn/axios-0.21.1",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/sedmsk/dumper.git",
-                    "reference": "a322eb9761697c6e4d3660bc1bd8a72199dc7710"
+                    "reference": "5b864de7099246286178bd65b4f1486cfeeda0cc"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/sedmsk/dumper/zipball/a322eb9761697c6e4d3660bc1bd8a72199dc7710",
-                    "reference": "a322eb9761697c6e4d3660bc1bd8a72199dc7710",
+                    "url": "https://api.github.com/repos/sedmsk/dumper/zipball/5b864de7099246286178bd65b4f1486cfeeda0cc",
+                    "reference": "5b864de7099246286178bd65b4f1486cfeeda0cc",
                     "shasum": ""
                 },
                 "require": {
@@ -98,7 +98,7 @@
                     "phpunit/php-code-coverage": "^6.0",
                     "phpunit/phpunit": "^7"
                 },
-                "time": "2020-08-19T12:51:31+00:00",
+                "time": "2021-01-05T08:32:50+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -141,7 +141,7 @@
                 ],
                 "homepage": "https://github.com/sedmsk/dumper",
                 "support": {
-                    "source": "https://github.com/sedmsk/dumper/tree/dependabot/npm_and_yarn/axios-0.18.1",
+                    "source": "https://github.com/sedmsk/dumper/tree/dependabot/npm_and_yarn/axios-0.21.1",
                     "issues": "https://github.com/sedmsk/dumper/issues"
                 }
             },
@@ -219,6 +219,78 @@
             },
             {
                 "name": "sd/dumper",
+                "version": "dev-dependabot/npm_and_yarn/ini-1.3.7",
+                "version_normalized": "dev-dependabot/npm_and_yarn/ini-1.3.7",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sedmsk/dumper.git",
+                    "reference": "1e5da5a56b557d43cc70bbe435e7a142d5ebe41c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/sedmsk/dumper/zipball/1e5da5a56b557d43cc70bbe435e7a142d5ebe41c",
+                    "reference": "1e5da5a56b557d43cc70bbe435e7a142d5ebe41c",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "php": ">=7.1",
+                    "symfony/var-dumper": "^3.3 || ^4.0"
+                },
+                "require-dev": {
+                    "phpdocumentor/phpdocumentor": "dev-master",
+                    "phpunit/php-code-coverage": "^6.0",
+                    "phpunit/phpunit": "^7"
+                },
+                "time": "2020-12-11T08:16:21+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "0.2.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "SD\\Dumper\\": "src/"
+                    },
+                    "files": [
+                        "src/helpers.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "@composer install --no-interaction",
+                        "phpunit --colors --testdox",
+                        "phpdoc"
+                    ],
+                    "post-autoload-dump": [
+                        "resources/scripts/composer/post-autoload-dump"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Igor Finagin",
+                        "email": "Igor@Finag.in",
+                        "homepage": "https://github.com/finagin",
+                        "role": "Developer"
+                    }
+                ],
+                "homepage": "https://github.com/sedmsk/dumper",
+                "support": {
+                    "source": "https://github.com/sedmsk/dumper/tree/dependabot/npm_and_yarn/ini-1.3.7",
+                    "issues": "https://github.com/sedmsk/dumper/issues"
+                }
+            },
+            {
+                "name": "sd/dumper",
                 "version": "dev-dependabot/npm_and_yarn/lodash-4.17.19",
                 "version_normalized": "dev-dependabot/npm_and_yarn/lodash-4.17.19",
                 "source": {
@@ -291,6 +363,78 @@
             },
             {
                 "name": "sd/dumper",
+                "version": "dev-dependabot/npm_and_yarn/lodash.mergewith-4.6.2",
+                "version_normalized": "dev-dependabot/npm_and_yarn/lodash.mergewith-4.6.2",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sedmsk/dumper.git",
+                    "reference": "d31963c7a1e35b804b030ac62865b49a6fdafa26"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/sedmsk/dumper/zipball/d31963c7a1e35b804b030ac62865b49a6fdafa26",
+                    "reference": "d31963c7a1e35b804b030ac62865b49a6fdafa26",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "php": ">=7.1",
+                    "symfony/var-dumper": "^3.3 || ^4.0"
+                },
+                "require-dev": {
+                    "phpdocumentor/phpdocumentor": "dev-master",
+                    "phpunit/php-code-coverage": "^6.0",
+                    "phpunit/phpunit": "^7"
+                },
+                "time": "2020-09-04T12:18:22+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "0.2.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "SD\\Dumper\\": "src/"
+                    },
+                    "files": [
+                        "src/helpers.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "@composer install --no-interaction",
+                        "phpunit --colors --testdox",
+                        "phpdoc"
+                    ],
+                    "post-autoload-dump": [
+                        "resources/scripts/composer/post-autoload-dump"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Igor Finagin",
+                        "email": "Igor@Finag.in",
+                        "homepage": "https://github.com/finagin",
+                        "role": "Developer"
+                    }
+                ],
+                "homepage": "https://github.com/sedmsk/dumper",
+                "support": {
+                    "source": "https://github.com/sedmsk/dumper/tree/dependabot/npm_and_yarn/lodash.mergewith-4.6.2",
+                    "issues": "https://github.com/sedmsk/dumper/issues"
+                }
+            },
+            {
+                "name": "sd/dumper",
                 "version": "dev-dependabot/npm_and_yarn/mixin-deep-1.3.2",
                 "version_normalized": "dev-dependabot/npm_and_yarn/mixin-deep-1.3.2",
                 "source": {
@@ -358,6 +502,78 @@
                 "homepage": "https://github.com/sedmsk/dumper",
                 "support": {
                     "source": "https://github.com/sedmsk/dumper/tree/dependabot/npm_and_yarn/mixin-deep-1.3.2",
+                    "issues": "https://github.com/sedmsk/dumper/issues"
+                }
+            },
+            {
+                "name": "sd/dumper",
+                "version": "dev-dependabot/npm_and_yarn/node-sass-4.14.1",
+                "version_normalized": "dev-dependabot/npm_and_yarn/node-sass-4.14.1",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sedmsk/dumper.git",
+                    "reference": "4de70e6875673b69f722a1b3d2d952c2d8753ad4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/sedmsk/dumper/zipball/4de70e6875673b69f722a1b3d2d952c2d8753ad4",
+                    "reference": "4de70e6875673b69f722a1b3d2d952c2d8753ad4",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "php": ">=7.1",
+                    "symfony/var-dumper": "^3.3 || ^4.0"
+                },
+                "require-dev": {
+                    "phpdocumentor/phpdocumentor": "dev-master",
+                    "phpunit/php-code-coverage": "^6.0",
+                    "phpunit/phpunit": "^7"
+                },
+                "time": "2020-09-04T12:48:15+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "0.2.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "SD\\Dumper\\": "src/"
+                    },
+                    "files": [
+                        "src/helpers.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "@composer install --no-interaction",
+                        "phpunit --colors --testdox",
+                        "phpdoc"
+                    ],
+                    "post-autoload-dump": [
+                        "resources/scripts/composer/post-autoload-dump"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Igor Finagin",
+                        "email": "Igor@Finag.in",
+                        "homepage": "https://github.com/finagin",
+                        "role": "Developer"
+                    }
+                ],
+                "homepage": "https://github.com/sedmsk/dumper",
+                "support": {
+                    "source": "https://github.com/sedmsk/dumper/tree/dependabot/npm_and_yarn/node-sass-4.14.1",
                     "issues": "https://github.com/sedmsk/dumper/issues"
                 }
             },
