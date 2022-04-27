@@ -8,15 +8,15 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/sedmsk/libphutil.git",
-                    "reference": "ed46ce3e19810b393acf8a55bc56f97b3ac5e3c8"
+                    "reference": "ff0d04905f695cefc2f86137360a39a638d8e23f"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/sedmsk/libphutil/zipball/ed46ce3e19810b393acf8a55bc56f97b3ac5e3c8",
-                    "reference": "ed46ce3e19810b393acf8a55bc56f97b3ac5e3c8",
+                    "url": "https://api.github.com/repos/sedmsk/libphutil/zipball/ff0d04905f695cefc2f86137360a39a638d8e23f",
+                    "reference": "ff0d04905f695cefc2f86137360a39a638d8e23f",
                     "shasum": ""
                 },
-                "time": "2019-05-14T06:16:37+00:00",
+                "time": "2021-03-10T12:13:38+00:00",
                 "bin": [
                     "bin/aws-s3"
                 ],
@@ -35,7 +35,7 @@
                     }
                 ],
                 "support": {
-                    "source": "https://github.com/sedmsk/libphutil/tree/0.1.0"
+                    "source": "https://github.com/sedmsk/libphutil/tree/master"
                 }
             }
         ]
