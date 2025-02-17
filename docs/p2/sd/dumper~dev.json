@@ -1304,17 +1304,17 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/sedmsk/dumper.git",
-                    "reference": "fb24ded5015ff52e79d20d09db122cc2f789c809"
+                    "reference": "634a5fb3bdb57aacc9b516110a8e2b7c0d6fa85c"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/sedmsk/dumper/zipball/fb24ded5015ff52e79d20d09db122cc2f789c809",
-                    "reference": "fb24ded5015ff52e79d20d09db122cc2f789c809",
+                    "url": "https://api.github.com/repos/sedmsk/dumper/zipball/634a5fb3bdb57aacc9b516110a8e2b7c0d6fa85c",
+                    "reference": "634a5fb3bdb57aacc9b516110a8e2b7c0d6fa85c",
                     "shasum": ""
                 },
                 "require": {
                     "ext-json": "*",
-                    "php": ">=7.1",
+                    "php": ">=7.4",
                     "symfony/var-dumper": "^7.2"
                 },
                 "require-dev": {
@@ -1322,7 +1322,7 @@
                     "phpunit/php-code-coverage": "^12.0",
                     "phpunit/phpunit": "^12.0"
                 },
-                "time": "2025-02-17T09:34:04+00:00",
+                "time": "2025-02-17T14:51:41+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -1366,7 +1366,7 @@
                 ],
                 "homepage": "https://github.com/sedmsk/dumper",
                 "support": {
-                    "source": "https://github.com/sedmsk/dumper/tree/v0.2.7",
+                    "source": "https://github.com/sedmsk/dumper/tree/v0.2.8",
                     "issues": "https://github.com/sedmsk/dumper/issues"
                 }
             },

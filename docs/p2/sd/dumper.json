@@ -630,6 +630,78 @@
                     "source": "https://github.com/sedmsk/dumper/tree/v0.2.7",
                     "issues": "https://github.com/sedmsk/dumper/issues"
                 }
+            },
+            {
+                "name": "sd/dumper",
+                "version": "v0.2.8",
+                "version_normalized": "0.2.8.0",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sedmsk/dumper.git",
+                    "reference": "634a5fb3bdb57aacc9b516110a8e2b7c0d6fa85c"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/sedmsk/dumper/zipball/634a5fb3bdb57aacc9b516110a8e2b7c0d6fa85c",
+                    "reference": "634a5fb3bdb57aacc9b516110a8e2b7c0d6fa85c",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "php": ">=7.4",
+                    "symfony/var-dumper": "^7.2"
+                },
+                "require-dev": {
+                    "phpdocumentor/phpdocumentor": "^3.7",
+                    "phpunit/php-code-coverage": "^12.0",
+                    "phpunit/phpunit": "^12.0"
+                },
+                "time": "2025-02-17T14:51:41+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "0.2.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "SD\\Dumper\\": "src/"
+                    },
+                    "files": [
+                        "src/helpers.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "@composer install --no-interaction",
+                        "phpunit --colors --testdox",
+                        "phpdoc"
+                    ],
+                    "post-autoload-dump": [
+                        "resources/scripts/composer/post-autoload-dump"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Igor Finagin",
+                        "email": "Igor@Finag.in",
+                        "homepage": "https://github.com/finagin",
+                        "role": "Developer"
+                    }
+                ],
+                "homepage": "https://github.com/sedmsk/dumper",
+                "support": {
+                    "source": "https://github.com/sedmsk/dumper/tree/v0.2.8",
+                    "issues": "https://github.com/sedmsk/dumper/issues"
+                }
             }
         ]
     }
