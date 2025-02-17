@@ -3,30 +3,30 @@
         "sd/dumper": [
             {
                 "name": "sd/dumper",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "dev-composer_update",
+                "version_normalized": "dev-composer_update",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/sedmsk/dumper.git",
-                    "reference": "13630f1d38c3292b4e73191e517e669b39f92a16"
+                    "reference": "8fc2580cf7c6347a92121d682a4d483e04049b51"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/sedmsk/dumper/zipball/13630f1d38c3292b4e73191e517e669b39f92a16",
-                    "reference": "13630f1d38c3292b4e73191e517e669b39f92a16",
+                    "url": "https://api.github.com/repos/sedmsk/dumper/zipball/8fc2580cf7c6347a92121d682a4d483e04049b51",
+                    "reference": "8fc2580cf7c6347a92121d682a4d483e04049b51",
                     "shasum": ""
                 },
                 "require": {
                     "ext-json": "*",
                     "php": ">=7.1",
-                    "symfony/var-dumper": "^3.3 || ^4.0"
+                    "symfony/var-dumper": "^7.2"
                 },
                 "require-dev": {
-                    "phpdocumentor/phpdocumentor": "dev-master",
-                    "phpunit/php-code-coverage": "^6.0",
-                    "phpunit/phpunit": "^7"
+                    "phpdocumentor/phpdocumentor": "^3.7",
+                    "phpunit/php-code-coverage": "^12.0",
+                    "phpunit/phpunit": "^12.0"
                 },
-                "time": "2019-06-02T16:55:53+00:00",
+                "time": "2025-02-17T09:27:10+00:00",
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -69,7 +69,7 @@
                 ],
                 "homepage": "https://github.com/sedmsk/dumper",
                 "support": {
-                    "source": "https://github.com/sedmsk/dumper/tree/0.2.5",
+                    "source": "https://github.com/sedmsk/dumper/tree/composer_update",
                     "issues": "https://github.com/sedmsk/dumper/issues"
                 }
             },
@@ -142,6 +142,78 @@
                 "homepage": "https://github.com/sedmsk/dumper",
                 "support": {
                     "source": "https://github.com/sedmsk/dumper/tree/dependabot/npm_and_yarn/axios-0.21.1",
+                    "issues": "https://github.com/sedmsk/dumper/issues"
+                }
+            },
+            {
+                "name": "sd/dumper",
+                "version": "dev-dependabot/npm_and_yarn/decode-uri-component-0.2.2",
+                "version_normalized": "dev-dependabot/npm_and_yarn/decode-uri-component-0.2.2",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sedmsk/dumper.git",
+                    "reference": "c85aec728478528a19f40a55908bf9b56a36515e"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/sedmsk/dumper/zipball/c85aec728478528a19f40a55908bf9b56a36515e",
+                    "reference": "c85aec728478528a19f40a55908bf9b56a36515e",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "php": ">=7.1",
+                    "symfony/var-dumper": "^3.3 || ^4.0"
+                },
+                "require-dev": {
+                    "phpdocumentor/phpdocumentor": "dev-master",
+                    "phpunit/php-code-coverage": "^6.0",
+                    "phpunit/phpunit": "^7"
+                },
+                "time": "2022-12-03T11:35:05+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "0.2.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "SD\\Dumper\\": "src/"
+                    },
+                    "files": [
+                        "src/helpers.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "@composer install --no-interaction",
+                        "phpunit --colors --testdox",
+                        "phpdoc"
+                    ],
+                    "post-autoload-dump": [
+                        "resources/scripts/composer/post-autoload-dump"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Igor Finagin",
+                        "email": "Igor@Finag.in",
+                        "homepage": "https://github.com/finagin",
+                        "role": "Developer"
+                    }
+                ],
+                "homepage": "https://github.com/sedmsk/dumper",
+                "support": {
+                    "source": "https://github.com/sedmsk/dumper/tree/dependabot/npm_and_yarn/decode-uri-component-0.2.2",
                     "issues": "https://github.com/sedmsk/dumper/issues"
                 }
             },
@@ -286,6 +358,78 @@
                 "homepage": "https://github.com/sedmsk/dumper",
                 "support": {
                     "source": "https://github.com/sedmsk/dumper/tree/dependabot/npm_and_yarn/elliptic-6.5.4",
+                    "issues": "https://github.com/sedmsk/dumper/issues"
+                }
+            },
+            {
+                "name": "sd/dumper",
+                "version": "dev-dependabot/npm_and_yarn/express-4.18.2",
+                "version_normalized": "dev-dependabot/npm_and_yarn/express-4.18.2",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sedmsk/dumper.git",
+                    "reference": "3b4c036d211eca48fdd06e845f10d378bff6b470"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/sedmsk/dumper/zipball/3b4c036d211eca48fdd06e845f10d378bff6b470",
+                    "reference": "3b4c036d211eca48fdd06e845f10d378bff6b470",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "php": ">=7.1",
+                    "symfony/var-dumper": "^3.3 || ^4.0"
+                },
+                "require-dev": {
+                    "phpdocumentor/phpdocumentor": "dev-master",
+                    "phpunit/php-code-coverage": "^6.0",
+                    "phpunit/phpunit": "^7"
+                },
+                "time": "2022-12-08T17:57:30+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "0.2.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "SD\\Dumper\\": "src/"
+                    },
+                    "files": [
+                        "src/helpers.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "@composer install --no-interaction",
+                        "phpunit --colors --testdox",
+                        "phpdoc"
+                    ],
+                    "post-autoload-dump": [
+                        "resources/scripts/composer/post-autoload-dump"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Igor Finagin",
+                        "email": "Igor@Finag.in",
+                        "homepage": "https://github.com/finagin",
+                        "role": "Developer"
+                    }
+                ],
+                "homepage": "https://github.com/sedmsk/dumper",
+                "support": {
+                    "source": "https://github.com/sedmsk/dumper/tree/dependabot/npm_and_yarn/express-4.18.2",
                     "issues": "https://github.com/sedmsk/dumper/issues"
                 }
             },
@@ -1160,25 +1304,26 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/sedmsk/dumper.git",
-                    "reference": "32d4ff71b64f0b118decdf53dd86502de0c6414f"
+                    "reference": "fb24ded5015ff52e79d20d09db122cc2f789c809"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/sedmsk/dumper/zipball/32d4ff71b64f0b118decdf53dd86502de0c6414f",
-                    "reference": "32d4ff71b64f0b118decdf53dd86502de0c6414f",
+                    "url": "https://api.github.com/repos/sedmsk/dumper/zipball/fb24ded5015ff52e79d20d09db122cc2f789c809",
+                    "reference": "fb24ded5015ff52e79d20d09db122cc2f789c809",
                     "shasum": ""
                 },
                 "require": {
                     "ext-json": "*",
                     "php": ">=7.1",
-                    "symfony/var-dumper": "^3.3 || ^4.0"
+                    "symfony/var-dumper": "^7.2"
                 },
                 "require-dev": {
-                    "phpdocumentor/phpdocumentor": "dev-master",
-                    "phpunit/php-code-coverage": "^6.0",
-                    "phpunit/phpunit": "^7"
+                    "phpdocumentor/phpdocumentor": "^3.7",
+                    "phpunit/php-code-coverage": "^12.0",
+                    "phpunit/phpunit": "^12.0"
                 },
-                "time": "2020-08-19T12:50:54+00:00",
+                "time": "2025-02-17T09:34:04+00:00",
+                "default-branch": true,
                 "type": "library",
                 "extra": {
                     "branch-alias": {
@@ -1221,7 +1366,79 @@
                 ],
                 "homepage": "https://github.com/sedmsk/dumper",
                 "support": {
-                    "source": "https://github.com/sedmsk/dumper/tree/v0.2.6",
+                    "source": "https://github.com/sedmsk/dumper/tree/v0.2.7",
+                    "issues": "https://github.com/sedmsk/dumper/issues"
+                }
+            },
+            {
+                "name": "sd/dumper",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/sedmsk/dumper.git",
+                    "reference": "13630f1d38c3292b4e73191e517e669b39f92a16"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/sedmsk/dumper/zipball/13630f1d38c3292b4e73191e517e669b39f92a16",
+                    "reference": "13630f1d38c3292b4e73191e517e669b39f92a16",
+                    "shasum": ""
+                },
+                "require": {
+                    "ext-json": "*",
+                    "php": ">=7.1",
+                    "symfony/var-dumper": "^3.3 || ^4.0"
+                },
+                "require-dev": {
+                    "phpdocumentor/phpdocumentor": "dev-master",
+                    "phpunit/php-code-coverage": "^6.0",
+                    "phpunit/phpunit": "^7"
+                },
+                "time": "2019-06-02T16:55:53+00:00",
+                "type": "library",
+                "extra": {
+                    "branch-alias": {
+                        "dev-master": "0.2.x-dev"
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "SD\\Dumper\\": "src/"
+                    },
+                    "files": [
+                        "src/helpers.php"
+                    ]
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Tests\\": "tests/"
+                    }
+                },
+                "scripts": {
+                    "test": [
+                        "@composer install --no-interaction",
+                        "phpunit --colors --testdox",
+                        "phpdoc"
+                    ],
+                    "post-autoload-dump": [
+                        "resources/scripts/composer/post-autoload-dump"
+                    ]
+                },
+                "license": [
+                    "MIT"
+                ],
+                "authors": [
+                    {
+                        "name": "Igor Finagin",
+                        "email": "Igor@Finag.in",
+                        "homepage": "https://github.com/finagin",
+                        "role": "Developer"
+                    }
+                ],
+                "homepage": "https://github.com/sedmsk/dumper",
+                "support": {
+                    "source": "https://github.com/sedmsk/dumper/tree/0.2.5",
                     "issues": "https://github.com/sedmsk/dumper/issues"
                 }
             }

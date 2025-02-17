@@ -1,9 +1,15 @@
 {
     "packages": [],
     "includes": {
-        "include/all$8f5a76438478e9ff924431f34d99736bc7a8175b.json": {
-            "sha1": "8f5a76438478e9ff924431f34d99736bc7a8175b"
+        "include/all$8c539f0208b2657d5f84043f46b98eefd0854efb.json": {
+            "sha1": "8c539f0208b2657d5f84043f46b98eefd0854efb"
         }
     },
-    "metadata-url": "/composer/p2/%package%.json"
+    "metadata-url": "/composer/p2/%package%.json",
+    "available-packages": [
+        "cogpowered/finediff",
+        "sd/arcanist",
+        "sd/dumper",
+        "sd/libphutil"
+    ]
 }

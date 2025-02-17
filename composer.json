@@ -5,7 +5,7 @@
     "license": "MIT",
     "require": {
         "ext-json": "*",
-        "composer/satis": "dev-master"
+        "composer/satis": "dev-main"
     },
     "config": {
         "optimize-autoloader": true,
